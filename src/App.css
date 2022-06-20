@@ -143,6 +143,8 @@ p{
   margin-top: 40px;
   background: rgb(174, 1, 1);
   margin-right: 10px;
+  border-style: none;
+  border-radius: 5px;
 }
 
 .update{
@@ -150,6 +152,7 @@ p{
   margin-top: 40px;
   background: rgb(206, 206, 0);
   border-radius: 5px;
+  border-style: none;
 }
 
 .loading {
@@ -237,6 +240,7 @@ to {
     background: rgb(174, 1, 1);
     margin-right: 10px;
     border-radius: 5px;
+    border-style: none;
   }
   
   .update{
@@ -244,6 +248,7 @@ to {
     margin-top: 50px;
     background: rgb(206, 206, 0);
     border-radius: 5px;
+    border-style: none;
   }
   h3{
     font-size: 13px;
