@@ -37,7 +37,7 @@ ul{
 #email{
   background:rgba(0, 0, 0, 0.347);
   color: white;
-  width: 200px; 
+  width: 200px;
 }
 #password{
   background:rgba(0, 0, 0, 0.347);
@@ -58,6 +58,7 @@ ul{
 #birthday{
   background:rgba(0, 0, 0, 0.347);
   color: white;
+  width: 200px;
 }
 
 .App{
