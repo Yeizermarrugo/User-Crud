@@ -205,6 +205,7 @@ to {
 
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
+  
   .App{
     display: grid;
     grid-template-columns: repeat(3,auto);
@@ -231,7 +232,7 @@ to {
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
   body{
-    background: fixed url(./img/back.body4.jpg);
+    background: url(./img/back.body4.jpg) fixed;
   }
   .App{
     display: grid;

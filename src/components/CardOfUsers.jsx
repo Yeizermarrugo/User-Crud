@@ -34,7 +34,7 @@ const CardOfUsers = ({user, getAllUsers, URL, setObjectUpdate,reset, setIsShowFo
       <ul>
         <li><b>First Name: </b>{user.first_name}</li>
         <li><b>Last Name: </b>{user.last_name}</li>
-        <li><b>Email:: </b>{user.email}</li>
+        <li><b>Email: </b>{user.email}</li>
         <li><b>Birthday: </b>{user.birthday}</li>
       </ul>
       <button className="delete" onClick={() => deleteMovie(user.id)}><i className='bx bx-trash' ></i></button>
