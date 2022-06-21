@@ -7,6 +7,9 @@ body.active-modal {
     display: block;
     margin: 100px auto 0;
     font-size: 18px;
+    border-radius: 10%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.193), rgba(0, 0, 255, 0.587));
+    color: #fff;
 }
 
 .modal, .overlay {
