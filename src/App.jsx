@@ -109,6 +109,11 @@ function App() {
           maximo={maximo}
         />
       </div>
+      <div className="footer">
+      <i class='bx bxl-netlify' ></i> <p></p>
+        <p><b>Made by Yeizer Marrugo</b></p> <p></p>
+        <i class='bx bxl-github' ></i>
+      </div>
     </div>
 }
     </>

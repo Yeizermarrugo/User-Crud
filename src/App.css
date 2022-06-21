@@ -181,8 +181,24 @@ p{
 to {
   transform: rotate(360deg);
 }
-}          
+}         
 
+.footer{
+  display: flex;
+  justify-content: center;
+}
+
+.footer>p{
+  color: black;
+  font-family: italic;
+}
+.bxl-netlify{
+  font-size: 40px;
+}
+
+.bxl-github{
+  font-size: 40px;
+}
 
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
