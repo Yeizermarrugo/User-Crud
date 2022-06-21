@@ -228,7 +228,7 @@ to {
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
   body{
-    background: fixed url(./img/back.body4.jpg);
+    background: fixed url(./img/back.body2.jpg);
   }
   .App{
     display: grid;
