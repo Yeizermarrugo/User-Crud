@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background: fixed url(./img/back.body2.jpg);
+  background: fixed url(./img/back.body2.jpg) no-repeat;
 }
 
 h2,ul{
@@ -189,15 +189,17 @@ to {
 }
 
 .footer>p{
-  color: black;
+  color: white;
   font-family: italic;
 }
 .bxl-netlify{
   font-size: 40px;
+  color: white;
 }
 
 .bxl-github{
   font-size: 40px;
+  color: white;
 }
 
 
@@ -228,7 +230,7 @@ to {
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
   body{
-    background: fixed url(./img/back.body2.jpg);
+    background: fixed url(./img/back.body2.jpg) no-repeat;
   }
   .App{
     display: grid;
