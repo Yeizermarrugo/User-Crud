@@ -2,10 +2,10 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import './App.css'
 import CardOfUsers from './components/CardOfUsers'
-import Form from './components/Form'
 import { useForm } from 'react-hook-form'
 import Paginacion from './components/Paginacion'
 import Loading from './components/Loading'
+import Modal from '../src/modal/Modal'
 
 
 const URL = 'https://users-crud1.herokuapp.com/users/'
@@ -60,10 +60,11 @@ function App() {
   const showForm = () => {
 
     const obj = {
-      duration: "",
-      genre: "",
-      name: "",
-      release_date: ""
+      email: "",
+        password: "",
+        first_name: "",
+        last_name: "",
+        birthday: ""
     }
     reset(obj)
     setIsShowForm(!isShowForm)
@@ -75,20 +76,14 @@ function App() {
     {isLoading ?
           <Loading /> :
     <div>
-      <div className="create">
-        <button className="btn" onClick={showForm}>{isShowForm ? 'Hide Form' : 'Create a new user'}</button>
-      </div>
+      <Modal
+      createNewUser={createNewUser}
+      updateUserById={updateUserById}
+      handleSubmit={handleSubmit}
+      reset={reset}
+      register={register}
+      objectUpdate={objectUpdate}/>
       <div className="form">
-        {
-          isShowForm &&
-          <Form
-            createNewUser={createNewUser}
-            updateUserById={updateUserById}
-            handleSubmit={handleSubmit}
-            reset={reset}
-            register={register}
-            objectUpdate={objectUpdate} />
-        }
       </div>
       <div className="App">
         {

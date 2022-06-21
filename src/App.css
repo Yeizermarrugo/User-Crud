@@ -32,30 +32,27 @@ ul{
   margin: 10px;
   transition-duration: 1s ease-in-out;
 }
-form{
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0);
-  background-color: #474747ad;
-  color: white;
-  transition-duration: 1s ease-in-out;
-}
+
 
 #email{
   background:rgba(0, 0, 0, 0.347);
   color: white;
+  width: 200px; 
 }
 #password{
   background:rgba(0, 0, 0, 0.347);
   color: white;
+  width: 200px;
 }
 #first_name{
   background:rgba(0, 0, 0, 0.347);
   color: white;
+  width: 200px;
 }
 #last_name{
   background:rgba(0, 0, 0, 0.347);
   color: white;
+  width: 200px;
 }
 
 #birthday{
@@ -214,6 +211,9 @@ to {
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
+  body{
+    background: fixed url(./img/back.body4.jpg);
+  }
   .App{
     display: grid;
     grid-template-columns: repeat(3,auto);

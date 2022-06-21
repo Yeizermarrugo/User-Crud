@@ -1,0 +1,94 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+    height: 332.2px;
+    border-radius: 5%;
+    background: left url(../img/popup.jpg);
+    color: white;
+}
+
+.modal-content > form:nth-child(1) > div:nth-child(1) {
+    height: 22.7px;
+    margin-bottom: -2px;
+    margin-top: 20px;
+    }
+
+.modal-content>form>div:nth-child(odd){
+    height: 30px;
+    margin-bottom: -10px;
+    margin-top: 11px;
+}
+
+.modal-content > form > button{
+    margin-top: 20px;
+    margin-left: 40%;
+    border-radius: 10%;
+    }
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0;
+    border-radius: 20%;
+}
+
+.close-modal:hover{
+    background-color: red;
+}
+
+p{
+    color: black;
+}
+
+.bxs-user-plus{
+    font-size: 30px;
+    color: blue;
+}
+
+.bx-x{
+    font-size: 30px;
+    color: gray;
+}
+
+.bx-x:hover{
+    color: white;
+}
+
+.submit{
+    background-color: green;
+    color: white;
+    font-size: 15px;
+}
